@@ -1,0 +1,90 @@
+#NavBar{
+    background-color: #5ebdb2;        /* Estilo para navBar  */
+}
+.page{                                  /* Estilo para fondo de pagina  */
+    background-color: #e47c5d;
+    font-family: fantasy;
+}
+.perfil{                                /* Estilo Imagen Principal navBar  */
+    border-radius: 100%;
+    max-width: 120px;
+    max-height: 180px;
+    padding: 15px;
+}
+.perfil1{                               /* Estilo para Mascotas navBar  */
+    border-radius: 100%;
+    max-width: 100px;
+    max-height: 100px;
+    padding: 15px;
+}
+.divMascota{                            /* estilo p categoria por mascotas */
+    background-color:#142b3b;
+    padding: 10px;
+    height: 1fr;
+    width: 100%;
+}
+.carrusel{                             /* decoraciones carrusel */
+    display: flex;
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+}
+.imgCarrusel{                       /* decoraciones carrusel */
+    width: 0px;
+    flex-grow: 0.8;
+    object-fit: cover;
+    opacity: 1;
+    transition: .5s ease;
+}
+.imgCarrusel:hover{                       /* transicion decoraciones carrusel */
+    width: 80px;
+    opacity: 1;
+    filter: contrast(120%);
+    padding: 0px 10px 0px 10px;
+    border-radius: 10%;
+}
+.TituloCuerpo{                       /* texto titular para carruseles */
+    border-radius: 3px;
+    display: flex;
+    height: 40px;
+    font-family: fantasy;
+    background-color:#e42d40;
+    width: 400px;
+}
+.pie{   /*      Footer */
+background-color: #5ebdb2;
+}
+.coll{                       /* texto y links de footer */
+    padding: 10px;
+    font-family: fantasy;
+    background-color: #e42d40;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.cartas{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    padding: 20px;
+    background-color: #e47c5d;
+}
+.card{
+    background-color: #142b3b;
+    color: white;
+}
+.form{
+    padding: 10px;
+    font-family: fantasy;
+}
+.contactoTienda{
+    padding: 10px;
+    font-family: fantasy;
+}
+.contactenos{
+    background-color: #e47c5d;
+    border-radius: 10px;
+    color: white;
+    margin: 20px;
+    border: 20px;
+}
